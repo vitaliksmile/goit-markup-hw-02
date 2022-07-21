@@ -1,0 +1,88 @@
+/* колір основного тексту #212121 */
+
+/* вторичний колір тексту #757575 */
+
+/* колір акцент #2196F3 */
+
+/* колір заголовка героя #FFFFFF */
+
+/* колір фона 1 блок і підвалу #2F303A  */
+
+/* колір фона 2 блок #F5F5F5 */
+
+/* колір фона 3 блок #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary--white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary--white-color);
+  color: var(--primary-text-color);
+}
+/* Шапка */
+.header {
+  background-color: var(--primary--white-color);
+}
+.hero {
+  background-color: #2f303a;
+}
+.logo {
+  color: var(--accent-color);
+}
+.logo-top {
+  color: #000000;
+}
+.logo-bottom {
+  color: var(--primary--white-color);
+}
+.hero .hero-title {
+  color: var(--primary--white-color);
+}
+/* Навігація на інші сторінка */
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Секція особливості */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Стилізація підвала */
+
+.footer {
+  background-color: #2f303a;
+}
+.list .addres {
+  color: var(--primary--white-color);
+}
+.list .contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button */
+.button {
+  color: var(--primary--white-color);
+  background-color: var(--accent-color);
+}
