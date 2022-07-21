@@ -97,7 +97,8 @@ a {
   background-color: #f5f4fa;
   cursor: pointer;
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--primary--white-color);
   background-color: var(--accent-color);
   cursor: pointer;
