@@ -85,4 +85,20 @@ a {
 .button {
   color: var(--primary--white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* ________________________________________ */
+/* Page-portfolio */
+
+/* Filter list */
+.filter-button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.filter-button:hover {
+  color: var(--primary--white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
