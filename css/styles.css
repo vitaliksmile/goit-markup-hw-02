@@ -103,13 +103,15 @@ body {
   text-decoration: none;
 }
 .addres.link:hover,
-.addres.link:focus {
-  color: var(--accent-color);
-}
+.addres.link:focus,
 .contacts.link:hover,
 .contacts.link:focus {
   color: var(--accent-color);
 }
+/* .contacts.link:hover,
+.contacts.link:focus {
+  color: var(--accent-color);
+} */
 /* Секція особливості */
 .section-title {
   color: var(--title-text-color);
