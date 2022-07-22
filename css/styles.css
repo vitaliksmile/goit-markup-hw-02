@@ -27,20 +27,23 @@ body {
 }
 /* Шапка */
 .logo {
+  text-decoration: none;
+}
+.logo-web {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
-.logo-top {
+.logo .top {
   color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
-.logo-bottom {
+.logo .bottom {
   color: var(--primary--white-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -93,11 +96,11 @@ body {
   letter-spacing: 0.06em;
 }
 /* Навігація на інші сторінка */
-a {
-  text-decoration: none;
-}
 .list {
   list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 /* Секція особливості */
 .section-title {
