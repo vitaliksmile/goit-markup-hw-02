@@ -61,6 +61,9 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .auth-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -108,10 +111,6 @@ body {
 .contacts.link:focus {
   color: var(--accent-color);
 }
-/* .contacts.link:hover,
-.contacts.link:focus {
-  color: var(--accent-color);
-} */
 /* Секція особливості */
 .section-title {
   color: var(--title-text-color);
@@ -151,11 +150,13 @@ body {
   color: var(--primary--white-color);
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .list .contacts {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 
 /* ________________________________________ */
