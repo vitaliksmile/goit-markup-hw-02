@@ -98,6 +98,11 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
+.center {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
 /* Навігація на інші сторінка */
 .list {
   list-style: none;
